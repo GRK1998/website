@@ -12,12 +12,6 @@ leadership:
       slack: 'https://hackforla.slack.com/team/UE1UG1YFP'
       github: 'https://github.com/ExperimentsInHonesty'
     picture: https://avatars.githubusercontent.com/ExperimentsInHonesty
-  - name: Josiah Odosu
-    role: Product Team
-    links:
-      slack: https://hackforla.slack.com/team/U052L9U44LB
-      github: https://github.com/Josiah-O
-    picture: https://avatars.githubusercontent.com/Josiah-O    
   - name: Anjola Jaiyeola
     role: Product Team
     links:
@@ -30,24 +24,12 @@ leadership:
       slack: 'https://hackforla.slack.com/team/U046PD8UT55'
       github: 'https://github.com/roslynwythe'
     picture: https://avatars.githubusercontent.com/roslynwythe
-  - name: Sarah Sanger
-    role: Merge Team
-    links:
-      slack: 'https://hackforla.slack.com/team/U02M686LYET'
-      github: 'https://github.com/blulady'
-    picture: https://avatars.githubusercontent.com/blulady
   - name: Will Gillis
     role: Merge Team
     links:
       slack: 'https://hackforla.slack.com/team/U043LGHSZFT'
       github: 'https://github.com/t-will-gillis'
     picture: https://avatars.githubusercontent.com/t-will-gillis
-  - name: Danny Do
-    role: Merge Team
-    links:
-      slack: 'https://hackforla.slack.com/team/U048G8S2YAK'
-      github: 'https://github.com/Adastros'
-    picture: https://avatars.githubusercontent.com/Adastros
   - name: Christina Or
     role: Merge Team
     links:
@@ -66,25 +48,27 @@ leadership:
       slack: https://hackforla.slack.com/team/U059K7A1VFB
       github: https://github.com/LRenDO
     picture: https://avatars.githubusercontent.com/LRenDO
-  - name: Ronald Paek
+  - name: J Pham
+    github-handle: jphamtv
     role: Merge Team
     links:
-      slack: 'https://hackforla.slack.com/team/U04RS2BCESX'
-      github: 'https://github.com/ronaldpaek'
-    picture: https://avatars.githubusercontent.com/ronaldpaek
-  - name: Richard Kwang
+      slack: 'https://hackforla.slack.com/team/U064FRUF893'
+      github: 'https://github.com/jphamtv'
+    picture: https://avatars.githubusercontent.com/jphamtv
+  - name: Nikileshwari Prasadh
+    github-handle: Thinking-Panda
     role: Merge Team
     links:
-      slack: https://hackforla.slack.com/team/U04U531MS5P
-      github: https://github.com/kwangric
-    picture: https://avatars.githubusercontent.com/kwangric
-  - name: Adrian Ang
+      slack: 'https://hackforla.slack.com/team/U04MJA414LU'
+      github: 'https://github.com/Thinking-Panda'
+    picture: https://avatars.githubusercontent.com/Thinking-Panda
+  - name: Nayan Bhatt
+    github-handle: freaky4wrld
     role: Merge Team
     links:
-      slack: 'https://hackforla.slack.com/team/U0596J2AZEE'
-      github: 'https://github.com/adrianang'
-    picture: https://avatars.githubusercontent.com/adrianang
-
+      slack: 'https://hackforla.slack.com/team/U05TZLLJAUV'
+      github: 'https://github.com/freaky4wrld'
+    picture: https://avatars.githubusercontent.com/freaky4wrld
 links:
   - name: Wiki
     url: 'https://github.com/hackforla/website/wiki'

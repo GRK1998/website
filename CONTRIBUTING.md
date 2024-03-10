@@ -330,7 +330,7 @@ For developers who do not use VS Code, use the corresponding npm package, cspell
 
 ### **2.1 Hack for LA Contributor expectations**
 
-In order to join [another project within Hack for LA](https://www.hackforla.org/projects/) or work on a `Complexity: Small`/`Complexity: Medium`/`Complexity: Large` label issue within this repo, you need to complete the following:
+In order to work on a `Complexity: Small`/`Complexity: Medium`/`Complexity: Large` label issue within this repo, you need to complete the following:
 
 1. `good first issue`
    * Self-assign an issue with the `good first issue` label.
@@ -356,6 +356,20 @@ All website team members are required to attend at least 1 team meeting in a wee
 All website team members are expected to devote a minimum of 6 hours per week while working on various assignments during their entire tenure at the website team (excluding week offs and vacations).
 
 Also, please let the tech leadership team know (through a slack message in the hfla-site channel as well as an @ mention in a comment of the issue that you would be working on) if you are planning to take a week off or a longer vacation.
+
+Prior to joining [another project within Hack for LA](https://www.hackforla.org/projects/), developers should gain the following experience:
+* Setting up your local environment from a CONTRIBUTING file
+* Completing the above series of issues at least up to `Complexity: Large` 
+* Resolving Merge Conflicts
+* Reviewing other people's Pull Requests
+* Create or improve documentation for other developers
+* Mentor other developers
+* Create new issues
+
+In addition, backend engineers should complete issues that provide experience with the following:
+* API requests
+* Cron Job Scripting
+* CRUD operations
 
 <sub>[Back to Table of Contents](#table-of-contents)</sub>
 ***
@@ -530,18 +544,12 @@ If you are not currently in the `gh-pages` branch, run the following command to 
 git checkout gh-pages
 ```
 
-**IMPORTANT:** Before you push your local commits to your repository, sync your fork to the main Hack For LA website repository. `git pull upstream` will ensure that your local repository is up-to-date with the main site:
+Update your gh-pages branch with upstream changes
 
-```bash
-git pull upstream
+```
+git pull upstream gh-pages
 ```
 
-You can also sync your fork directly on GitHub by clicking "Sync Fork" at the right of the screen and then clicking "Update Branch"
-
-<details>
-  <summary><strong>Click here</strong> to see how to sync the fork on GitHub</summary>
-  <img src="https://docs.github.com/assets/cb-49937/images/help/repository/update-branch-button.png" />
-</details>
 
 <sub>[Back to Table of Contents](#table-of-contents)</sub>
 
@@ -775,7 +783,7 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 ##### **ii. Setting up SSH Keys for Windows**
 
-1. You have to set up SSH keys in order to contribute to github remotely. First check if you have any keys set up already.
+1. You have to set up SSH keys in order to contribute to github remotely. First check if you have any keys set up already. Open Git Bash and run:
 
 ```bash
 ls -al ~/.ssh
